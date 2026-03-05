@@ -1,13 +1,17 @@
+import random
+
 numeros = [91, 34, 67, 15, 82]
-print("Lista original: ", numeros)
+print("lista original:",numeros)
 
 numeros.sort()
-print("Após sort()", numeros)
+print("Apos sort():",numeros)
+
 
 numeros.sort(reverse=True)
-print("Após sort(): ", numeros)
+print("Apos sort():",numeros)
 
 numeros3 = [6, 7, 8, 9, 10]
-print("Lista 2 original: ", numeros3)
+print("lista 2 original:",numeros3)
 
-random.shuffle(numeros)
+random.shuffle(numeros3)
+print("lista embaralhada:",numeros3)
