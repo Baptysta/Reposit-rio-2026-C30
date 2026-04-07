@@ -9,6 +9,6 @@ if total >= 150:
 elif total >= 120:
     print("D")
 elif total >= 100:
-    print("B")
+    print("P")
 else:
     print("N")
